@@ -59,8 +59,8 @@
     <org.aospextended.extensions.preference.CustomSeekBarPreference
         android:key="statusbar_clock_font_size"
         android:title="@string/clock_font_size_title"
-        settings:max="23"
-        settings:min="4"
+        settings:maximum="23"
+        settings:minimum="4"
         settings:units="dp"
         android:persistent="false" />
 

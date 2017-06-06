@@ -57,22 +57,22 @@
            <org.aospextended.extensions.preference.CustomSeekBarPreference
                 android:key="navbar_height_portrait"
                 android:title="@string/portrait_title"
-                settings:max="135"
-                settings:min="65"
+                settings:maximum="135"
+                settings:minimum="65"
                 settings:units="%" />
 
            <org.aospextended.extensions.preference.CustomSeekBarPreference
                 android:key="navbar_height_landscape"
                 android:title="@string/land_hor_title"
-                settings:max="135"
-                settings:min="65"
+                settings:maximum="135"
+                settings:minimum="65"
                 settings:units="%" />
 
            <org.aospextended.extensions.preference.CustomSeekBarPreference
                 android:key="navbar_width"
                 android:title="@string/land_vert_title"
-                settings:max="135"
-                settings:min="65"
+                settings:maximum="135"
+                settings:minimum="65"
                 settings:units="%" />
         <PreferenceScreen
             android:key="pulse_settings"

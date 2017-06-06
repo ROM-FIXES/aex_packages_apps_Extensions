@@ -54,8 +54,8 @@
     <org.aospextended.extensions.preference.CustomSeekBarPreference
         android:key="navbar_buttons_alpha"
         android:title="@string/navbar_buttons_alpha_title"
-        settings:max="255"
-        settings:min="0"
+        settings:maximum="255"
+        settings:minimum="0"
         settings:units=""
         android:persistent="false" />
 
@@ -68,8 +68,8 @@
     <org.aospextended.extensions.preference.CustomSeekBarPreference
         android:key="smartbar_custom_icon_size"
         android:title="@string/smartbar_custom_icon_size_title"
-        settings:max="100"
-        settings:min="10"
+        settings:maximum="100"
+        settings:minimum="10"
         settings:units="%"
         android:persistent="false" />
 

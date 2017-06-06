@@ -83,8 +83,8 @@
     <org.aospextended.extensions.preference.CustomSeekBarPreference
         android:key="button_brightness"
         android:title="@string/button_brightness_title"
-        android:max="255"
-        settings:min="0"
+        settings:maximum="255"
+        settings:minimum="0"
         settings:units=""
         android:persistent="false" />
 
